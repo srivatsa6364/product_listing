@@ -1,22 +1,113 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
 .navbar {
     width: 100%;
     height: 83px;
-    background-color: black;
+    background-image: linear-gradient(#e2c2ed, white);
+    border: 0.8px solid rgb(229, 231, 235);
 }
-.main{
+
+.nav-group {
+    width: 92%;
+    height: 78px;
+   
+    margin-left: 58px;
+   
+    
+}
+.nav-item {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    padding-top: 15px;
+}
+.logo-text {
+    width: 90px;
+    font-family: Arial, sans-serif; /* Use a suitable font family */
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+    color: #9012b9; /* Adjust color as needed */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px;
+
+    
+}
+.delivery {
+   
+    color: rgb(41, 44, 52);
+    width: 274px;
+    height: 28px;
+}
+.minutes {
+    font-size: 20px;
+    font-weight: 800;
+    color: #9012b9;
+}
+.search {
+    width: 900px;
+    height: 45px;
+    border: 0.8px solid rgb(229, 231, 235);
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+}
+.input {
+    width: 450px;
+    border: none;
+    outline: none;
+    font-size: 16px; 
+    font-weight: 200;
+     color:  rgb(55, 65, 81);
+}
+.search-icon {
+    width: 22px;
+    height: 22px;
+    color: black;
+    padding-right: 16px;
+}
+.icon {
+    width: 32px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 4px;
+   
+}
+.user-icon {
+    width: 24px;
+    height: 24px;
+
+}
+.login {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+.main {
     width: 1300px;
     height: 700px;
     background-color: aqua;
-    margin-left: 100px;
+    margin-left: 110px;
     display: flex;
     flex-direction: row;
 }
+
 .side-items {
     width: 170px;
     height: 64px;
     background-color: blueviolet;
     margin-bottom: 8px;
 }
+
 .products-container {
     width: 1150px;
     height: 700px;
@@ -26,6 +117,7 @@
     grid-template-columns: auto auto auto auto auto;
     grid-template-rows: 288px 288px 288px 288px 288px 288px;
 }
+
 .products {
     width: 224px;
     border: 0.8px solid grey;
