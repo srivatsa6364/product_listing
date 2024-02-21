@@ -166,7 +166,7 @@
 .products-container {
     width: 1150px;
     height: 700px;
-    background-color: blue;
+    
     margin-top: 22px;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
@@ -177,4 +177,59 @@
 .products {
     width: 224px;
     border: 0.8px solid grey;
+}
+.pro-item {
+   
+    width: 198px;
+    height: 260px;
+    margin: 12px;
+    display: grid;
+    grid-template-rows: 143px 62px 34px;
+    row-gap: 12px;
+}
+.pro-img {
+    width: 178px;
+    height: 143px;
+    margin-left: 10px;
+}
+.pro-txt {
+    width: 198px;
+    height: 62px;
+    
+}
+.pro-heading {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    margin-bottom: 8px;
+}
+.grams {
+    font-size: 15px;
+    letter-spacing: 0.35px;
+    color: rgba(43, 30, 53, 0.7);
+    font-weight: 400;
+}
+.price-container {
+    width: 198px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.35px;
+}
+.add-button {
+    width: 47px;
+    height: 27px;
+    color: rgb(255, 50, 105);
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid rgb(255, 50, 105);
+    border-radius: 6px;
+    line-height: 27px;
+    text-align: center;
+    
 }
