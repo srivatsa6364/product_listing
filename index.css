@@ -6,7 +6,7 @@
 .navbar {
     width: 100%;
     height: 83px;
-    background-image: linear-gradient(#e2c2ed, white);
+    background-image: linear-gradient(#e2c2ed, white);;
     border: 0.8px solid rgb(229, 231, 235);
 }
 
@@ -104,8 +104,35 @@
 .side-items {
     width: 170px;
     height: 64px;
-    background-color: blueviolet;
     margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side-items:hover {
+    background-image: linear-gradient(#c98fdd, white); 
+  }
+.side-item-p {
+    width: 148px;
+   height: 38px;
+   margin: 0px 16px;
+   display: flex;
+   align-items: center;
+   column-gap: 16px;
+}
+.side-item-img {
+    width: 44px;
+    height: 42px;
+    border-radius: 100%;
+}
+#side-txt1 {
+   font-size: 16px;
+   font-weight: 600;
+}
+.side-item-txt {
+    color: rgb(19, 0, 34);
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .products-container {
