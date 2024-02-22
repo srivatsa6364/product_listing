@@ -111,7 +111,7 @@
 .main {
     width: 1330px;
     height: 700px;
-    margin-left: 98px;
+    margin-left: 95px;
     display: grid;
     grid-template-columns: 170px 1150px;
     gap: 8px;
